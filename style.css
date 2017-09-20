@@ -1,0 +1,91 @@
+/* Style the tab buttons */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+    color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;
+}
+
+/* Style each tab content individually */ 
+#week1 {
+    background-image: url("img/helloworld.jpg");
+    border: 1px solid green;
+    width: 100%;
+}
+#week2 {
+    background-image: url("img/homepage.png");
+    border: 1px solid green;
+    background-size: cover;
+}
+#week3 {
+    background-color:orange;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#Oslo {
+    background-color:orange;
+}
+
+h1{
+    color:white;
+    font-size: 250%;
+}
+
+/* Must give credit where credit is due.  I found this amazing animation on this code pen: https://codepen.io/asfarmed/pen/cfslr?page=1 */
+
+body{
+	margin:0;
+	padding:0;
+	font-family:"arial",heletica,sans-serif;
+	font-size:12px;
+    background: #5A6B75 url('img/black.png') repeat 0 0;
+	-webkit-animation: 10s linear 0s normal none infinite animate;
+	-moz-animation: 10s linear 0s normal none infinite animate;
+	-ms-animation: 10s linear 0s normal none infinite animate;
+	-o-animation: 10s linear 0s normal none infinite animate;
+	animation: 10s linear 0s normal none infinite animate;
+ 
+}
+ 
+@-webkit-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-moz-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-ms-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@-o-keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
+ 
+@keyframes animate {
+	from {background-position:0 0;}
+	to {background-position: 500px 0;}
+}
